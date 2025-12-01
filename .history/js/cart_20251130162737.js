@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart – Discover Diamond Zillions</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">Your Cart</h1>
+            <p class="page-subtitle">Review your selected products and checkout.</p>
+        </div>
+    </header>
+
+    <section class="cart-section">
+        <div class="container">
+
+            <div id="cartItems" class="cart-items"></div>
+
+            <div class="cart-footer">
+                <a href="products.html" class="back-btn">← Continue Shopping</a>
+                <button class="checkout-btn" onclick="checkoutWhatsApp()">Checkout via WhatsApp</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="../js/cart.js"></script>
+</body>
+
+</html>

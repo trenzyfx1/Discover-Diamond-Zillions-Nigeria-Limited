@@ -875,14 +875,22 @@
             e.preventDefault();
         });
 
-        // Disable F12
+        // Disable Ctrl + C, Ctrl + A, Ctrl + U
         document.addEventListener("keydown", function (e) {
+            if (
+                (e.ctrlKey && e.key === "c") ||
+                (e.ctrlKey && e.key === "u") ||
+                (e.ctrlKey && e.key === "a")
+            ) {
+                e.preventDefault();
+            }
+
+            // Disable F12
             if (e.key === "F12") {
                 e.preventDefault();
             }
         });
     </script>
-
 </body>
 
 </html>

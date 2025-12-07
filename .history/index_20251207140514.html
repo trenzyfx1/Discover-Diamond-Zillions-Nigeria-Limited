@@ -870,18 +870,27 @@
 
     <script src="./js/script.js"></script>
     <script>
-        // Disable right-click
-        document.addEventListener("contextmenu", function (e) {
+    // Disable right-click
+    document.addEventListener("contextmenu", function(e){
+        e.preventDefault();
+    });
+
+    // Disable Ctrl + C, Ctrl + A, Ctrl + U
+    document.addEventListener("keydown", function(e) {
+        if (
+            (e.ctrlKey && e.key === "c") || 
+            (e.ctrlKey && e.key === "u") || 
+            (e.ctrlKey && e.key === "a")
+        ) {
             e.preventDefault();
-        });
+        }
 
         // Disable F12
-        document.addEventListener("keydown", function (e) {
-            if (e.key === "F12") {
-                e.preventDefault();
-            }
-        });
-    </script>
+        if (e.key === "F12") {
+            e.preventDefault();
+        }
+    });
+</script>
 
 </body>
 

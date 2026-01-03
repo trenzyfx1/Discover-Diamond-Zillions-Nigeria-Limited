@@ -475,7 +475,7 @@ body {
 }
 
 .stats-row-section {
-    background-color: #001f4c;
+    background-color: #001f4c; 
     padding: 40px 0;
     margin-top: 30px;
     border-radius: 10px;
@@ -505,7 +505,7 @@ body {
 .stat-number {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #ff8c00;
+    color: #ff8c00; 
     line-height: 1;
     margin-bottom: 5px;
 }
@@ -520,7 +520,6 @@ body {
     .stats-bar {
         justify-content: center;
     }
-
     .stat-item {
         flex: 0 0 45%;
         margin-bottom: 20px;
@@ -562,7 +561,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1200px; 
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -580,12 +579,12 @@ body {
 
 .industries-served-section {
     padding: 80px 0;
-    background-color: #f3b56f60;
+    background-color: #f3b56f60; 
 }
 
 .industry-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     gap: 20px;
     margin-bottom: 60px;
 }
@@ -595,9 +594,9 @@ body {
     border-radius: 8px;
     padding: 30px 20px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); 
     transition: transform 0.3s, box-shadow 0.3s;
-    background: linear-gradient(145deg, #ffffff, #f9f9f9);
+    background: linear-gradient(145deg, #ffffff, #f9f9f9); 
 }
 
 .industry-card:hover {
@@ -607,7 +606,7 @@ body {
 
 .card-icon {
     font-size: 3rem;
-    color: #ff8c00;
+    color: #ff8c00; 
     margin-bottom: 10px;
 }
 
@@ -650,7 +649,7 @@ body {
     gap: 20px;
 }
 
-.indus-btn {
+.indus-btn{
     padding: 12px 25px;
     font-size: 1rem;
     font-weight: 600;
@@ -664,14 +663,11 @@ body {
     .industry-grid {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
-
     .cta-buttons {
         flex-direction: column;
         align-items: center;
     }
-
-    .btn-primary,
-    .btn-secondary {
+    .btn-primary, .btn-secondary {
         width: 80%;
     }
 }
@@ -1781,7 +1777,7 @@ body {
     text-align: center;
     font-family: 'Inter', sans-serif;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .book-appointment h2 {
@@ -1878,7 +1874,7 @@ body {
     direction: rtl;
 }
 
-.about-grid.reverse>* {
+.about-grid.reverse > * {
     direction: ltr;
 }
 
@@ -1898,7 +1894,7 @@ body {
 .about-image img {
     width: 100%;
     border-radius: 12px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
 }
 
 .section-title {
@@ -1927,13 +1923,13 @@ body {
     padding: 30px;
     border-radius: 14px;
     text-align: center;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.06);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.1);
 }
 
 .about-card i {
@@ -2118,20 +2114,24 @@ body {
     margin-bottom: 10px;
 }
 
-.footer-links a {
+/* .footer-links a
+{
     font-size: 14px;
     color: #cfd8e3;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
-.footer-links a:hover {
+.footer-links a:hover,
+.footer-services a:hover,
+.footer-contact a:hover {
     color: #f7941e;
-}
+} */
 
-.footer-services div, .footer-contact div {
-    font-size: 14px;
-    color: #cfd8e3;
+.footer-contact a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .footer-bottom {
@@ -2246,7 +2246,7 @@ body {
     background: #fff;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
     text-align: center;
     overflow: hidden;
     transition: 0.3s ease;
@@ -2257,11 +2257,11 @@ body {
     height: 180px;
     border-radius: 10px;
     object-fit: cover;
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out; 
 }
 
 .product-card img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); 
 }
 
 .product-card button {

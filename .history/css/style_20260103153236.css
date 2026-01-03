@@ -2129,10 +2129,13 @@ body {
     color: #f7941e;
 }
 
-.footer-services div, .footer-contact div {
-    font-size: 14px;
-    color: #cfd8e3;
-}
+.foo
+/* 
+.footer-contact a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+} */
 
 .footer-bottom {
     margin-top: 40px;
